@@ -3,8 +3,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #EFEFEF;
-    margin: 0;
-    padding: 0;
 }
 
 .navbar ul {
@@ -30,9 +28,4 @@ body {
 
 .navstd a:hover {
   background-color: #22cc4d;
-}
-
-.navstd a.active {
-  background-color: rgb(7, 97, 30);
-  color: white;
 }
