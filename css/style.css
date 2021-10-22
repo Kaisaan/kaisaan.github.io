@@ -3,6 +3,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar ul {
@@ -15,4 +17,16 @@ body {
 }
 .navstd {
   float: left;
+}
+
+.navstd a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navstd a:hover {
+  background-color: #22cc4d;
 }
