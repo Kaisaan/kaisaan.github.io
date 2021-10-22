@@ -15,6 +15,7 @@ body {
   background-color: #259441;
   font-family: 'Roboto', sans-serif;
 }
+
 .navstd {
   float: left;
 }
@@ -29,4 +30,9 @@ body {
 
 .navstd a:hover {
   background-color: #22cc4d;
+}
+
+.navstd a.active {
+  background-color: rgb(7, 97, 30);
+  color: white;
 }
