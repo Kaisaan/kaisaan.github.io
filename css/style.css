@@ -9,7 +9,15 @@ body {
 }
 
 p, h1, h2 {
+  margin: 1em
+}
+
+p {
   font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 .navbar ul {
