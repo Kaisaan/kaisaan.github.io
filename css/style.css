@@ -2,10 +2,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 100%;
+    font-size: large;
     background-color: #EFEFEF;
     margin: 0;
     padding: 0;
+}
+
+p, h1, h2 {
+  font-size: 1em;
 }
 
 .navbar ul {
