@@ -1,46 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #EFEFEF;
-  margin: 0;
-  padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
 }
 
 p, h1, h2 {
-  margin: 2%;
+    margin: 2%;
 }
 
 p {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 h1 {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 .navbar ul {
-  font-size: 1rem;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #259441;
-  font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     background-color: #259441;
+     font-family: 'Roboto Mono', monospace;
 }
 
 .navstd {
-  float: left;
+     float: left;
 }
 
 .navstd a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+      text-decoration: none;
 }
 
 .navstd a:hover {
-  background-color: #22cc4d;
+    background-color: #22cc4d;
 }
