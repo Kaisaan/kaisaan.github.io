@@ -2,14 +2,13 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-    font-size: large;
-    background-color: #EFEFEF;
-    margin: 0;
-    padding: 0;
+  background-color: #EFEFEF;
+  margin: 0;
+  padding: 0;
 }
 
 p, h1, h2 {
-  margin: 1em
+  margin: 2%;
 }
 
 p {
