@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
     font-size: large;
     background-color: #EFEFEF;
     margin: 0;
@@ -27,7 +27,7 @@ h1 {
   padding: 0;
   overflow: hidden;
   background-color: #259441;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .navstd {
