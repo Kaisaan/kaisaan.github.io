@@ -3,12 +3,8 @@
 body {
     font-family: 'Roboto Mono', monospace;
     background-color: #EFEFEF;
-    margin: 0;
-    padding: 0;
-}
-
-p, h1, h2 {
     margin: 2%;
+    padding: 0;
 }
 
 p {
@@ -25,12 +21,12 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-     background-color: #259441;
-     font-family: 'Roboto Mono', monospace;
+    background-color: #259441;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .navstd {
-     float: left;
+    float: left;
 }
 
 .navstd a {
@@ -38,7 +34,7 @@ h1 {
     color: white;
     text-align: center;
     padding: 14px 16px;
-      text-decoration: none;
+    text-decoration: none;
 }
 
 .navstd a:hover {
