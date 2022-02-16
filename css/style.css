@@ -3,8 +3,12 @@
 body {
     font-family: 'Roboto Mono', monospace;
     background-color: #EFEFEF;
-    margin: 2%;
+    margin: 0;
     padding: 0;
+}
+
+p, h1, h2 {
+    margin: 2%;
 }
 
 p {
@@ -13,6 +17,7 @@ p {
 
 h1 {
     font-size: 2em;
+    margin-bottom: 0px;
 }
 
 .navbar ul {
