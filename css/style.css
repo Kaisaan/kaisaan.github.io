@@ -42,12 +42,12 @@ h1 {
 
  /* unvisited link */
  a:link {
-    color: #66ff00;
+    color: #1a940d;
   }
   
   /* visited link */
   a:visited {
-    color: #1a940d;
+    color: #126409;
   }
   
   /* mouse over link */
