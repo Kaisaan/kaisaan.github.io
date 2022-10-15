@@ -25,7 +25,7 @@ body {
     background-color: #EFEFEF;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 100%;
 }
 
 p, h1, h2 {
