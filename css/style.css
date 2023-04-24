@@ -27,6 +27,10 @@ h1 {
     margin-bottom: 0px;
 }
 
+h2 {
+    margin-bottom: 0px;
+}
+
 /* unvisited link */
 a:link {
    color: #1a940d;
