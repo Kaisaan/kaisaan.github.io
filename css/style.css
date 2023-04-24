@@ -1,27 +1,13 @@
 @font-face {
-	font-family:'MMRock9';
-		src:url('fonts/MMRock9.eot');
-		src:url('fonts/MMRock9.eot?#iefix') format('embedded-opentype'),
-			url('fonts/MMRock9.woff') format('woff'),
-			url('fonts/MMRock9.ttf') format('truetype'),
-			url('fonts/MMRock9.svg#MMRock9') format('svg');
+	font-family:'DSiFont';
+	src:url('fonts/DSiFont.ttf');
 	font-weight:normal;
 	font-style:normal;
     font-stretch: condensed;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face {
-		font-family:'MMRock9';
-		src: url('fonts/MMRock9.svg') format('svg');
-		font-weight:normal;
-		font-style:normal;
-        font-stretch: condensed;
-	}
-}
-
 body {
-    font-family: 'MMRock9', monospace;
+    font-family: 'DSiFont';
     background-color: #EFEFEF;
     margin: 0;
     padding: 0;
@@ -68,7 +54,7 @@ h1 {
     padding: 0;
     overflow: hidden;
     background-color: #1a940d;
-    font-family: 'MMRock9', monospace;
+    font-family: 'DSiFont';
 }
 
 .navstd {
