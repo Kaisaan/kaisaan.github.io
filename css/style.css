@@ -27,25 +27,25 @@ h1 {
     margin-bottom: 0px;
 }
 
- /* unvisited link */
- a:link {
-    color: #1a940d;
-  }
+/* unvisited link */
+a:link {
+   color: #1a940d;
+}
   
-  /* visited link */
-  a:visited {
+/* visited link */
+a:visited {
     color: #126409;
-  }
+}
   
-  /* mouse over link */
-  a:hover {
-    color: #66ff00;
-  }
+/* mouse over link */
+a:hover {
+color: #66ff00;
+}
   
-  /* selected link */
-  a:active {
+/* selected link */
+a:active {
     color: #1a940d;
-  } 
+} 
 
 .navbar ul {
     font-size: 1rem;
