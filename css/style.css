@@ -26,8 +26,8 @@ body {
     font-size: 10px;
 }
 
-p, li, h1, h2 {
-    margin: 2%;
+p, h1, h2 {
+    margin: 2em;
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 
 li {
     font-size: 2em;
-    margin-bottom: 0px;
+    margin-left: 1em;
 }
 
 h1 {
