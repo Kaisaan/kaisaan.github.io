@@ -69,7 +69,7 @@ a:active {
     color: #1a940d;
 } 
 
-.navbar ul, li {
+.navbar ul {
     font-size: 1em;
     list-style-type: none;
     margin: 0;
@@ -78,7 +78,7 @@ a:active {
     background-color: #1a940d;
 }
 
-.navbar ul {
+.navbar li {
     font-size: 1em;
 }
 
