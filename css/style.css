@@ -79,18 +79,19 @@ a:active {
 }
 
 .navbar li {
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .navstd {
     float: left;
+    margin: 0;
 }
 
 .navstd a {
     display: block;
     color: white;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1em 2em;
     text-decoration: none;
 }
 
@@ -108,7 +109,7 @@ a:active {
     border: none;
     outline: none;
     color: white;
-    padding: 1em 2em;
+    padding: 1em 1em;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -125,12 +126,13 @@ a:active {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-size: 2em;
   }
   
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 1em 2em;
+    padding: 1em 1em;
     text-decoration: none;
     display: block;
     text-align: left;
