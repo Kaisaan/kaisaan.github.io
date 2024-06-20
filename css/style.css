@@ -30,8 +30,13 @@ p, li, h1, h2 {
     margin: 2%;
 }
 
-p, li {
+p {
     font-size: 2em;
+}
+
+li {
+    font-size: 2em;
+    margin-bottom: 0px;
 }
 
 h1 {
