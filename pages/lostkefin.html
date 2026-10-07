@@ -1,0 +1,47 @@
+---
+title: Lost Kefin
+layout: default
+description: Lost Kefin
+---
+
+<h1>Ys V: Lost Kefin, Kingdom of Sand (PS2) Translation</h1>
+
+<p>This is a page about one of my finished projects. The translation of Ys V: Lost Kefin, Kingdom of Sand on the Playstation 2!</p>
+
+<h2><a href="https://github.com/Kaisaan/lostkefin/releases/latest" target="_blank">Link to the translation</a></h2>
+
+<p>The latest release is <b>Version 1.1</b></p>
+
+<h2><a href="https://www.ys-link.net/blog/2026/09/25/a-conversation-with-kaisaan-ys-mod-developer/" target="_blank"></a>Interview About The Translation</a></h2>
+
+<p>
+    This was an interview I did with groggydog, the person who owns the <a href="https://www.ys-link.net" target="_blank">Ys Link fansite</a>.<br>
+    In the interview, I give some insight into how I got the game translated along with how general fan translations of this game are done.
+</p>
+
+<h2>About Lost Kefin</h2>
+
+<p>
+    This game is a remake of Ys V on the SNES. This remake was published by Taito and developed by Access Co. just like how the other PS2 remakes of Ys 3 and 4 were done.
+    This remake completely overhauls the gameplay, magic system, story, and overhauls the dungeons. One of the most major addition is Dogi is actually in the game.
+</p>
+
+<h2>About the translation</h2>
+
+<p>
+    <a href="https://github.com/Kaisaan/lostkefin", target="_blank">Link to GitHub page.</a><br>
+    An overview for how the translation is done:
+    <ul>
+        <li>Extract the files from the game's DVD</li>
+        <li>Extract individual files from the "DATA.BIN" file</li>
+        <li>Decompile script files into custom "kscript" files</li>
+        <li>The kscript files contain useful info and context such as which character is speaking</li>
+        <li>Extract the strings from the kscript files onto spreadsheets</li>
+        <li>Translate the game into English on Google Sheets</li>
+        <li>During building, the text is pulled from Google Sheets, then inserted into the kscript files, then compiled back into the original format, then repacked into DATA.BIN, and rebuilt into a new ISO</li>
+        <li>Graphics files from DATA.BIN have a special format <a href="https://github.com/Kaisaan/lostkefin/blob/main/graphicsFormat.md" target="_blank">which I have documented</a></li>
+        <li>Graphics files are converted into PNG files for editing, which are then reinserted back into the given graphics file during building</li>
+        <li>Strings in the game's executable are exported into a spreadsheet, and then have their pointers updated during building</li>
+    </ul>
+    This translation was done thanks to the work of many volunteers and supporters!
+</p>
