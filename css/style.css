@@ -9,14 +9,6 @@
 	font-style:normal;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face {
-		font-family:'NDS12';
-		src: url('/css/NDS12.svg') format('svg');
-		font-weight:normal;
-		font-style:normal;
-	}
-}
 
 html {
     font-size: 20px;
@@ -27,7 +19,7 @@ body {
     background-color: #EFEFEF;
     margin: 0;
     padding: 0;
-    padding-bottom: 1em;
+    padding-bottom: 1%;
 }
 
 p, h1, h2 {
