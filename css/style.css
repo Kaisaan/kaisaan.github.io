@@ -1,10 +1,10 @@
 @font-face {
 	font-family:'NDS12';
-		src:url('NDS12.eot');
-		src:url('NDS12.eot?#iefix') format('embedded-opentype'),
-				url('NDS12.woff') format('woff'),
-				url('NDS12.ttf') format('truetype'),
-				url('NDS12.svg#NDS12') format('svg');
+		src:url('/css/NDS12.eot');
+		src:url('/css/NDS12.eot?#iefix') format('embedded-opentype'),
+				url('/css/NDS12.woff') format('woff'),
+				url('/css/NDS12.ttf') format('truetype'),
+				url('/css/NDS12.svg#NDS12') format('svg');
 	font-weight:normal;
 	font-style:normal;
 }
@@ -12,14 +12,14 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	@font-face {
 		font-family:'NDS12';
-		src: url('NDS12.svg') format('svg');
+		src: url('/css/NDS12.svg') format('svg');
 		font-weight:normal;
 		font-style:normal;
 	}
 }
 
 html {
-    font-size: 10px;
+    font-size: 20px;
 }
 
 body {
@@ -27,6 +27,7 @@ body {
     background-color: #EFEFEF;
     margin: 0;
     padding: 0;
+    padding-bottom: 1em;
 }
 
 p, h1, h2 {
