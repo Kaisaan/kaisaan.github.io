@@ -15,6 +15,9 @@ html {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'NDS12';
     background-color: #EFEFEF;
     margin: 0;
@@ -26,8 +29,7 @@ footer {
     text-align: center;
     position: relative;
     width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    margin-top: auto;
 }
 
 p {
