@@ -24,16 +24,15 @@ body {
 
 footer {
     text-align: center;
+    padding-bottom: 1%;
+    position: absolute;
 }
 
-p, h1, h2 {
-    margin: 4rem;
-}
+
 
 p {
     font-size: 2em;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px 4rem 0px 4rem;
 }
 
 li {
@@ -43,10 +42,12 @@ li {
 
 h1 {
     font-size: 4em;
+    margin: 4rem;
 }
 
 h2 {
     font-size: 3em;
+    margin: 4rem;
 }
 
 /* unvisited link */
