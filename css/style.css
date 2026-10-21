@@ -24,10 +24,10 @@ body {
 
 footer {
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
-    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 p {
