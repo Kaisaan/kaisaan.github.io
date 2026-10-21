@@ -25,9 +25,9 @@ body {
 footer {
     text-align: center;
     position: relative;
-    bottom: 0;
     width: 100%;
     padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 p {
