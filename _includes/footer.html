@@ -1,1 +1,11 @@
-<p>Website by Kaisaan Siddiqui</p>
+<p>Website by Kaisaan Siddiqui</p><br>
+<p id="randQuote"></p>
+
+<script>
+
+var quotes = new Array("Test 1","Test 2","Test 3");
+var randIndex = Math.floor(Math.random()*quotes.length);
+var string = quotes[randIndex]
+document.getElementById('randQuote').innerHTML = string;
+
+</script>

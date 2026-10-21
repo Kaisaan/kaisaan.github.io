@@ -27,9 +27,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding-bottom: 1%;
 }
-
-
 
 p {
     font-size: 2em;
