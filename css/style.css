@@ -24,8 +24,9 @@ body {
 
 footer {
     text-align: center;
-    padding-bottom: 1%;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
