@@ -22,7 +22,6 @@ body {
     background-color: #EFEFEF;
     margin: 0;
     padding: 0;
-    padding-bottom: 1%;
 }
 
 footer {
@@ -30,6 +29,7 @@ footer {
     position: relative;
     width: 100%;
     margin-top: auto;
+    padding-bottom: 1%;
 }
 
 p {
