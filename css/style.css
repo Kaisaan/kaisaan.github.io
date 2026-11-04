@@ -24,11 +24,16 @@ body {
     padding: 0;
 }
 
+main {
+    margin: 4rem;
+}
+
 footer {
     text-align: center;
     position: relative;
     width: 100%;
     margin-top: auto;
+    padding-top: 5%;
     padding-bottom: 1%;
 }
 
@@ -39,17 +44,16 @@ p {
 
 li {
     font-size: 2rem;
-    margin-left: 1em;
+    margin: 0px 1rem 0px 1rem;
+    
 }
 
 h1 {
     font-size: 4em;
-    margin: 4rem;
 }
 
 h2 {
     font-size: 3em;
-    margin: 4rem;
 }
 
 /* unvisited link */
